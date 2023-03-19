@@ -3,7 +3,7 @@ const app = express()
 app.use(express.json())
 
 app.get("/",(req,res)=>{
-    res.send("Welcome to server 2")
+    res.send("Welcome to server 2.0")
 })
 
 app.listen(4500,()=>{
